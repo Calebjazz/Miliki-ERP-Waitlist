@@ -1,0 +1,35 @@
+export default {
+  languageLabel: 'Choose language',
+  announcement: 'Early access registration is now open.',
+  headline: 'Take control of your assets. Manage your business smarter.',
+  supporting: 'Join the MILIKI waitlist and be among the first to experience smarter asset management.',
+  description: 'MILIKI ERP helps asset owners manage their assets, drivers, payments and daily business operations from one connected platform. Whether you manage motorcycles, Bajaj or trucks, MILIKI gives you better control of what you own.',
+  fields: {
+    name: 'full name',
+    phone: 'Phone number',
+    asset: 'What assets do you manage?',
+  },
+  countryLabel: 'Select phone country',
+  placeholders: {
+    name: 'Enter your full name',
+    asset: 'Select asset type',
+  },
+  assets: {
+    motorcycles: 'Motorcycles / Boda Boda',
+    bajaj: 'Bajaj',
+    trucks: 'Trucks',
+    other: 'Other assets',
+  },
+  validation: {
+    name: 'Please enter your full name.',
+    phone: 'Enter a valid phone number.',
+    asset: 'Please select the type of assets you manage.',
+  },
+  submit: 'Join the Waitlist',
+  submitting: 'Submitting...',
+  success: 'You’re on the list! Thank you for registering.',
+  failure: 'We couldn’t confirm your registration. Please try again.',
+  footer: 'Be among the first to experience MILIKI. Stay updated on our launch and early access opportunities.',
+  socialLabel: 'Follow MILIKI',
+  copyright: '© 2026 Miliki ERP · Manage what you own.',
+}

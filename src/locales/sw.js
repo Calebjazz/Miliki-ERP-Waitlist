@@ -1,0 +1,35 @@
+export default {
+  languageLabel: 'Chagua lugha',
+  announcement: 'Usajili wa kupata nafasi ya awali umefunguliwa.',
+  headline: 'Dhibiti mali zako. Simamia biashara yako kwa njia bora zaidi.',
+  supporting: 'Jiunge na orodha ya wanaosubiri na uwe miongoni mwa watumiaji wa kwanza wa MILIKI.',
+  description: 'MILIKI ERP inakusaidia kusimamia mali zako, madereva, malipo na shughuli za kila siku za biashara kupitia mfumo mmoja wa kidigitali. Iwe unasimamia pikipiki, Bajaj au malori, MILIKI inakupa udhibiti bora wa biashara yako.',
+  fields: {
+    name: 'Jina kamili',
+    phone: 'Namba ya simu (WhatsApp)',
+    asset: 'Unasimamia mali za aina gani?',
+  },
+  countryLabel: 'Chagua nchi ya simu',
+  placeholders: {
+    name: 'Ingiza jina lako kamili',
+    asset: 'Chagua aina ya mali',
+  },
+  assets: {
+    motorcycles: 'Pikipiki / Bodaboda',
+    bajaj: 'Bajaj',
+    trucks: 'Malori',
+    other: 'Aina nyingine za mali',
+  },
+  validation: {
+    name: 'Tafadhali ingiza jina lako kamili.',
+    phone: 'Ingiza namba sahihi ya simu.',
+    asset: 'Tafadhali chagua aina ya mali unazosimamia.',
+  },
+  submit: 'Jiunge na Orodha ya Usajili',
+  submitting: 'Inatuma...',
+  success: 'Umejiunga! Asante kwa kujisajili.',
+  failure: 'Hatukuweza kuthibitisha usajili wako. Tafadhali jaribu tena.',
+  footer: 'Kuwa miongoni mwa watumiaji wa kwanza wa MILIKI. Pata taarifa kuhusu uzinduzi na nafasi za kupata huduma mapema.',
+  socialLabel: 'Fuata MILIKI',
+  copyright: '© 2026 Miliki ERP · Simamia unachomiliki.',
+}
