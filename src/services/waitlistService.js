@@ -51,7 +51,7 @@ export function submitWaitlistRegistration(registration) {
     function handleMessage(event) {
       const trustedOrigin = event.origin === 'https://script.google.com'
         || event.origin.endsWith('.googleusercontent.com')
-      if (event.source !== frame.contentWindow || !trustedOrigin) return
+      if (!trustedOrigin) return
 
       const result = event.data
       if (result?.type !== 'MILIKI_WAITLIST_RESULT' || result.submissionId !== submissionId) return
